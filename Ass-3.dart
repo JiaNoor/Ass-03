@@ -76,19 +76,19 @@ for(var i = 1; i <= 100; i++){
   var operand2 = 4;
   var operator = '/';
   if(operator == '+'){
-    print(operand1 + operand2);
+    print("$operand1 + $operand2 = ${operand1+operand2}");
   }
   else if(operator == '-'){
-    print(operand1 - operand2);
+    print("$operand1 - $operand2 = ${operand1-operand2}");
   }
   else if(operator == '*'){
-    print(operand1 * operand2);
+    print("$operand1 x $operand2 = ${operand1*operand2}");
   }
   else if(operator == '/'){
-    print(operand1 / operand2);
+    print("$operand1 ÷ $operand2 = ${operand1/operand2}");
   }
   else if(operator == '%'){
-    print(operand1 % operand2);
+    print("$operand1 % $operand2 = ${operand1 %operand2}");
   }  
 
 //Q10  
