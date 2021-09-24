@@ -1,4 +1,19 @@
 void main(){
+//Q1
+  //Using BuiltIn
+  List<String> ballList = ["ball","ball","ball","ball","ball"];
+  ballList = ballList.toSet().toList();
+  print(ballList);
+  
+  //Using Loop
+  var newList = [];
+  for(var i in ballList){
+    if(newList.contains(i) == false){
+      newList.add(i);
+    } 
+  }
+  print(newList);
+  
 // Q2:
   List <int> lst_1 = [1,2,3,4,5,6,7];
   List <int> lst_2 = [3,5,6,7,9,10];
