@@ -1,7 +1,7 @@
 void main(){
 //Q1
   //Using BuiltIn
-  List<String> ballList = ["ball","ball","ball","ball","ball"];
+  List<String> ballList = ["bilal","ali","owais","bilal","raza","owais"];
   ballList = ballList.toSet().toList();
   print(ballList);
   
